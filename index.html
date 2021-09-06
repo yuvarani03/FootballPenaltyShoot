@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOOTBALL PENALTY SHOOT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <div class="row">
+    <div class="column">
+        <img class="profile-icon" src="img/Arsenal.jpg" height="150px" width="150px" alt="Logo">
+       <span class="name" id="team-1-name"></span>
+        <div class="row round-shoot" id="team-1-round-shoot">
+            <span class="circle"></span>
+            <span class="circle"></span>
+            <span class="circle"></span>
+            <span class="circle"></span>
+            <span class="circle"></span>
+        </div>
+    </div>
+    <div class="column">
+       <div class="row score">
+           <h1> <span id="team-1-score"></span>
+            <span>-</span>
+            <span id="team-2-score"></span></h1>
+       </div>
+    </div>
+    <div class="column">
+        <img class="profile-icon" src="img/MC City.png" height="150px" width="150px" alt="Logo">
+        <span class="name" id="team-2-name"></span>
+        <div class="row round-shoot" id="team-2-round-shoot">
+            <span class="circle"></span>
+            <span class="circle"></span>
+            <span class="circle"></span>
+            <span class="circle"></span>
+            <span class="circle"></span>
+           
+        </div>
+    </div>
+</div>
+    <div class="row">
+        <button id="shoot-button" onclick="shootButtonClick()"></button>
+    </div>
+    <!--Result-->
+    <div class="row" id="result" hidden></div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
