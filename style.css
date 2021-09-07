@@ -14,9 +14,10 @@ body{
     height: 50vh;
     width: 100vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     padding: 50px;
     align-self: center;
+    flex-wrap: wrap;
 
 }
 
